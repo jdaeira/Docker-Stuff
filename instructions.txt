@@ -13,3 +13,9 @@ docker rmi $(docker images -a -q)
 
 # Run a Command with Password in It (Have to try it)
 echo AmdmmxK6 | sudo -S pacman -Qs Python
+
+# Start an existing Container
+docker start <container name>
+
+# Run the container that's been started
+docker exec -it <container name> /bin/bash
