@@ -1,6 +1,6 @@
 # This is how you run a docker file with a specific name
 
-docker build -f "ubuntu19.04" .
+docker build -f "ubuntu19.10" .
 
 # Try this to rename the image
 docker tag d583c3ac45fd ubuntu/base:19.04
@@ -19,3 +19,9 @@ docker start <container name>
 
 # Run the container that's been started
 docker exec -it <container name> /bin/bash
+
+# Remove a Docker Container
+docker rm ID_or_Name ID_or_Name
+
+# Remove a Docker Image
+docmer rmi Image Image
