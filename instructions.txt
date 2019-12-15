@@ -24,4 +24,4 @@ docker exec -it <container name> /bin/bash
 docker rm ID_or_Name ID_or_Name
 
 # Remove a Docker Image
-docmer rmi Image Image
+docker rmi Image Image
