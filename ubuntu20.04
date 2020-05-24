@@ -1,8 +1,8 @@
 #
-# Docker file to create Ubuntu:19.04
+# Docker file to create Ubuntu:20.04
 #
 
-FROM ubuntu:eoan
+FROM ubuntu:latest
 
 RUN apt-get update && apt-get upgrade
 RUN apt install -y neofetch
