@@ -19,6 +19,8 @@ RUN apt install -y zsh && apt install -y fish
 RUN apt install -y git
 RUN pip3 install pylint
 
+# # Unminimize
+RUN yes | unminimize
 
 # Added new user and changed default password of
 # New User and Root
