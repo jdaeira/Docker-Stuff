@@ -1,9 +1,9 @@
 # This is how you run a docker file with a specific name
 
-docker build -f "ubuntu19.10" .
+docker build -f "ubuntu20.04" .
 
 # Try this to rename the image
-docker tag d583c3ac45fd ubuntu/base:19.04
+docker tag d583c3ac45fd ubuntu/base:20.04
 
 # Remove all Docker Containers
 docker rm $(docker ps -a -q)
