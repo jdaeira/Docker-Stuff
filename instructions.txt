@@ -16,6 +16,7 @@ echo AmdmmxK6 | sudo -S pacman -Qs Python
 
 # Start an existing Container
 docker start <container name>
+docker start -ai <container name>
 
 # Run the container that's been started
 docker exec -it <container name> /bin/bash
@@ -25,3 +26,6 @@ docker rm ID_or_Name ID_or_Name
 
 # Remove a Docker Image
 docker rmi Image Image
+
+Find Out all Containers either running or not running
+docker ps -a
