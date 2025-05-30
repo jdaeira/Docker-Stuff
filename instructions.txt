@@ -16,7 +16,8 @@ echo AmdmmxK6 | sudo -S pacman -Qs Python
 
 # Start an existing Container
 docker start <container name>
-example: docker start -ai bold_tesla
+- run docker ps -a to find out container name
+- example: docker start -ai bold_tesla
 docker start -ai <container name>
 
 # Run the container that's been started
